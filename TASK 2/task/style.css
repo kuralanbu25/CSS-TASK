@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.one{
+    background-color: #0e0a18;
+    color: white;
+    position: fixed;
+    font-family: sans-serif;
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    
+}
+.two{
+    font-size: 20px;
+    margin-top: -10px;
+    padding-bottom: 8px;
+}
+.icon{
+    color: #b3b6b6;
+    font-size: 25px;
+    margin-top: -20px;
+}
+.three{
+    background-color: #f2f6f7;
+    padding: 8px;
+    margin-left: 5%;
+    display: flex;
+}
+.hh{
+    font-weight: 15px;
+}
+.line{
+    border-left: 1px solid;
+    margin-left: 10px;
+    
+}
+.four{
+    display: flex;
+    margin-left: 60%;
+    
+}
+.dum{
+    font-size: 20px;
+}
+.five{
+    margin-top: 7%;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.bxs-down-arrow{
+    font-size: 15px;
+    margin:5px;
+}
+.bxs-cog{
+    padding-left: 15px;
+}
+.bxs-help-circle{
+    padding-left: 15px;
+}
+.bxs-user{
+    padding-left: 15px;
+}
+.prithi{
+    display: flex;
+}
+.lavu{
+    margin-left: 7%;
+    width: 10%;
+    border-right: 1px solid #b9b1b1;
+    font-family: sans-serif;
+
+}
+.rishi{
+    padding: 10px ;
+    font-size: 15px;
+    
+}
+.ram{
+    margin-left: 20px;
+    line-height: 2rem;
+    font-size: smaller;
+  
+}
+.bxs-circle{
+    font-size: 10px;
+    color: red;    
+}
+.flex{
+    display: flex;
+    gap: 25px;
+}
+.seven{
+    line-height: 2.5rem;
+    margin-left: 3%;
+    padding-bottom:35px;
+    width: 44%;
+    padding-right: 5%;
+    border-right: 1px solid #b9b1b1;
+}
+.kural{
+    font-size: 18px;
+    padding-top: 40px;
+}
+.info{
+    font-size: 18px;
+}
+input{
+    background-color:#f2f6f7;
+    border-radius: 5px;
+    padding: 10px 5px;
+    border: 1px solid gray;
+
+}
+.line{
+    border-right: 1px solid gray;
+}
+button{
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: white;
+    border-collapse: collapse;
+
+}
+.last{
+    font-family: sans-serif;
+    width: 29%;
+    margin-left: 2%;
+}
+button{
+    padding: 10px;
+    margin-top: 10px;
+    margin-top: 30px;
+    
+    
+}
+.single{
+    background-color: #c2c2c2;
+}
+.cl{
+    border-bottom: 1px solid #b9b8b8;
+    padding:20px;
+
+    font-size: small;
+}
+.add{
+    padding: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    
+}
+.add h3{
+    font-size: 16px;
+}
+.sh{
+    border: 1px solid #b6b1b1;
+    background-color: #f2f6f7;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    width: 350px;
+}
+.bx-search{
+    font-size: 16px;
+}
+.ss{
+    padding-left: 18px;
+    margin-top: -20px;
+}
+.user{
+    border: 1px solid #b6b1b1;
+    margin: 10px; 
+    color: #b6b1b1;
+    border-radius: 8px;
+    padding: 5px;
+    
+}
+.bx-user{
+    font-size: 25px;
+    padding-top: 40px;
+}
+.use{
+    margin-top: -60px;
+    padding-left: 50px;
+    font-size: small;  
+
+}
+.address{
+    border: 1px solid #b6b1b1;
+    margin: 10px; 
+    color: #b6b1b1;
+    border-radius: 8px;
+    padding: 5px;
+} 
+.bx-home{
+    font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.ad{
+    font-size: 15px;
+    padding-left: 50px;
+    margin-top: -80px;
+    font-size: small;
+}
+.com{
+    border: 1px solid #b6b1b1;
+    margin: 10px; 
+    border-radius: 8px;
+    padding: 5px;
+}
+.company{
+    font-size: 15px;
+    padding-left: 50px;
+    margin-top: -80px;
+    font-size: small;
+}
+.sal{
+    border: 1px solid #b6b1b1;
+    margin: 10px; 
+    border-radius: 8px;
+    padding: 5px;
+}
+.sales{
+    font-size: 15px;
+    padding-left: 50px;
+    margin-top: -80px;
+    font-size: small;
+}
+.sys{
+    border:1px solid #b6b1b1;
+    color: #b6b1b1;
+    margin: 10px; 
+    border-radius: 8px;
+    padding: 5px;
+}
+.system{
+    padding-left: 50px;
+    font-size: small;
+
+}
+.bxs-business{
+    font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #e6e61eb7;
+}
+.bxs-group{
+    font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: red;
+}
+.bx-target-lock{
+    float: left;
+    padding-top: 40px;
+    font-size: 25px;
+    
+}

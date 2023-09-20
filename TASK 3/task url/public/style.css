@@ -1,0 +1,267 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    display: flex;
+    margin-left: 10%;
+    
+}
+.start{
+    font-size: 22px;
+    font-weight:bold;
+    padding-top:10px ;
+}
+a{
+    text-decoration: none;
+    color:gray;
+    padding-left: 7px;
+}
+.one{
+    margin-left: 5%;
+    padding-top: 35px;
+    font-size: 18px;
+}
+.bxs-down-arrow{
+    font-size: 10px;
+    color: gray;
+}
+.cart{
+    margin-left: 50%;
+    margin-top: 30px;
+}
+.add{
+    padding: 3px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.fa-cart-shopping{
+    font-size: 15px;
+
+}
+.fa-circle-dot{
+    font-size: 15px;
+    padding: 3px;
+
+}
+.drop{
+    display: none;
+    position: relative;
+    margin-left: 60%;
+    margin-top: 18px;
+    
+    
+}
+.down{
+    position: absolute;
+    visibility: hidden;
+    text-align: center;
+    top: 15px;
+    right:5px; 
+    width: 150px;
+    background-color: #f3f6f7;
+   
+}
+.down a{
+    color:black;
+    
+
+}
+.down li{
+    list-style-type: none;
+    padding: 1rem;
+}
+.drop:hover  .down{
+    visibility: visible;
+    display: block;
+    scale: 0.95;  
+}
+.shop{
+    color: #f8f6f6;
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    margin-top: 10px;
+    
+}
+.shop p{
+    color: #a7a4a4;
+}
+main{
+    margin: 8%;
+    gap: 45px;
+    display:grid ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.photo{
+    height: 150px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.prith{
+    position: relative;
+}
+.sale{
+    position: absolute;
+    color: white;
+    background-color: black;
+    left: 78%;
+    border-radius: 5px;
+    padding: 5px;
+    width: 30px;
+    
+    
+}
+.box{
+    border: 1px solid #dad8d8;
+    border-radius: 10px;
+    padding-bottom: 20px;
+
+}
+.box1{
+    text-align: center;
+    padding: 10px;
+}
+button{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #d3cece;
+    border-radius: 5px;
+}
+.fa-star{
+    color: gold;
+}
+.but{
+    margin-top: 35px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+@media screen and (max-width:1024px) {
+    header{
+        margin-left: 10%;
+        font-size: 20px;
+    }
+    .one{
+        margin-left: 2%;
+    }
+    .cart{
+        margin-left: 30%;
+
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 35px;
+    }
+}
+@media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    header{
+        margin-left: 10%;
+        font-size: 20px;
+    }
+    .one{
+        margin-left: 2%;
+    }
+    .cart{
+        margin-left: 30%;
+
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 35px;
+    }
+}
+@media screen and (max-width:425px) {
+    main{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 35px;
+        
+    }
+    .one{
+        display: none;
+    }
+    .cart{
+        display: none;
+    }
+    .shop{
+        padding: 20px;
+    }
+    .start{
+        font-size: 15px;
+    }
+    .drop{
+        display: flex;
+        visibility:visible;
+        margin-left: 63%;
+    
+    }
+    
+}
+@media screen and (max-width:375px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 35px;
+        
+    }
+    
+    .one{
+        display: none;
+    }
+    .cart{
+        display: none;
+    }
+    .shop{
+        padding: 20px;
+    }
+    .start{
+        font-size: 15px;
+    }
+    .drop{
+        display: flex;
+        visibility:visible;
+        margin-left: 55%;
+    
+    }
+}
+@media screen  and ( max-width:321px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 35px;
+        
+    }
+    
+    .one{
+        display: none;
+    }
+    .cart{
+        display: none;
+    }
+    .shop{
+        padding: 20px;
+    }
+    .start{
+        font-size: 15px;
+    }
+    .drop{
+        display: flex;
+        visibility:visible;
+        margin-left: 45%;
+    
+    }
+    
+}

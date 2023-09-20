@@ -1,0 +1,251 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'open sans',sans-serif;
+
+}
+.bx-menu{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 140px;
+    padding: 10px;
+}
+.bx-menu:hover{
+    color: #db545a;
+}
+.class{
+    width: 60%;
+    font-size: 20px;
+}
+.first{
+    background-color: #7fc0ca;
+    color: white;
+    padding: 100px;
+    padding-left: 150px;
+    line-height: 1.6;
+
+}
+.para1{
+    font-size: 40px;
+
+}
+.button{
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 20px 40px; 
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 40px;
+
+}
+.button:hover{
+    color: white;
+    background-color: #161616;
+    border:none ;
+}
+.para2{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2.25rem;
+}
+.freepik{
+    text-align: center;
+    font-size: 1.125rem;
+}
+.free{
+    cursor: pointer;
+}
+.row{
+    width:380px;
+    height:340px;
+    border:2px ;
+    margin:8px;
+    
+}
+.gal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.paraa{
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 60px;
+    background-color:#333333 ;
+    font-family: Montserrat, sans-serif !important;
+}
+
+.hello{
+    padding-left: 25px;
+    color: white;
+    margin-top: 30px;
+    font-weight: lighter;
+
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Montserrat, sans-serif !important;
+
+}
+
+.col{
+   background-color: white;
+   color: black;
+   padding: 0px  20px 20px;
+   margin: 20px;
+   text-align: justify;
+   
+}
+
+.fname{
+    font-size: 1.25rem;
+    font-weight: lighter;
+    
+}
+.sname{
+    color:#7fc0ca94 !important;
+    font-size: 1.125rem;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    
+}
+.tname{
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+.name4{
+    padding-top: 30px;
+    color: #aaa3a3;
+}
+
+.our{
+    text-align: center;
+    font-size: 2.125rem;
+    font-weight: lighter;
+
+}
+.well{
+
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+.freepik1{
+    text-align: center;
+    font-size: 1.125rem;
+
+}
+.freepik1{
+    cursor: pointer;
+}
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.row1{
+    width:380px;
+    height:340px;
+    margin:8px; 
+}  
+.main{
+    background-color: #272626;
+    color: white;
+    padding: 60px;
+    margin-top: 30px;
+}
+.come{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 80px;
+}
+.lavubox1{
+    width: 40%;
+    line-height: 0.7;
+    padding-left: 5%;
+}
+
+.lavubox2{
+    width:40%;
+    margin-left: 10%;
+    margin-right: 2%;
+}
+.lavubox3{
+    padding-right: 3%;
+}
+.lavu1{
+    font-size: 2.25rem;
+    font-weight: lighter;
+    justify-content: center;
+    line-height: 1.5;
+}
+.lavu2{
+    font: 1.5rem;
+    margin-top: 80px;
+}
+.kural{
+    line-height: 1.6;
+    font-size: 1.125rem;
+    
+}
+.cont{
+    font-size: 1.25rem;
+    font-weight:lighter;
+}
+
+.kural2{
+    margin-top: 150px;
+}
+.phone{
+    padding-top: 50px;
+}
+.bxl-twitter{
+    color: #7fc0ca;
+    font-size: 40px;
+    margin-right: 8px;
+}
+.bxl-facebook{
+    font-size: 40px;
+    color: #7fc0ca;
+    margin-right: 8px;
+}
+.bxl-instagram{
+    font-size: 40px;
+    color: #7fc0ca;
+}
+.prith{
+    font-size: 1.25rem;
+    font-weight: lighter;
+    
+}
+.man{
+     margin-top: 150px ;
+}
+.footer{
+    text-align: center;
+    font-size: 0.875rem;
+    margin-top: 100px;
+}
+.linkpara{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 0.875rem;
+}
+.link{
+    color: #c7e5ea;
+    cursor: pointer;
+}
+.link:hover{
+    color: gray;
+    text-decoration: none;
+}
